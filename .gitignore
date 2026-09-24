@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+.env
+temp_resume.pdf
+temp_resume.docx
