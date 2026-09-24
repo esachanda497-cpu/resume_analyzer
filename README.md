@@ -44,3 +44,43 @@ AI-Resume-Analyzer/
 ├── fronted.py
 ├── .gitignore
 └── README.md
+
+⚙️ How It Works
+User uploads a resume in PDF or DOCX format.
+The Streamlit frontend sends the resume to the FastAPI backend.
+The backend extracts the text from the resume.
+The application checks the resume for predefined technical skills.
+An ATS-style score is calculated based on the detected skills.
+The results are displayed on the Streamlit interface.
+📊 ATS Score
+
+The current version calculates the score based on the percentage of predefined skills detected in the resume.
+
+For example:
+
+Skills detected: 8
+Total skills checked: 16
+
+ATS Score = 50%
+
+
+🔮 Future Improvements
+🤖 AI-powered resume analysis using LLMs
+🎯 Job-description based resume matching
+📈 Keyword optimization suggestions
+💡 Personalized resume improvement recommendations
+📊 Detailed ATS analysis
+🧠 Experience and education section analysis
+📄 Resume formatting analysis
+🌐 Deploy the application online
+🔐 User authentication and resume history
+🎯 Project Goal
+
+The goal of this project is to build a beginner-friendly resume analysis tool that helps students and job seekers understand how well their resumes match common technical skill requirements.
+
+👩‍💻 Author
+
+Esa Chanda
+
+B.Tech Computer Science & Engineering
+Institute of Engineering & Management
